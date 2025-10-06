@@ -62,7 +62,19 @@ The dataset includes dense **pixel-level semantic segmentations** for **1,469 se
 
 *Figure 4: Comparison of segmentation label visibility (left) and pixel distribution across videos (right).*
 
-![Sample Frames](figures/sample_frames.png)
+<div align="center">
+<table>
+<tr>
+<td align="center"><b>Beginning of Capsulorhexis</b><br><img src="figures/sample_rhexis_begin.png" width="400"/></td>
+<td align="center"><b>End of Capsulorhexis</b><br><img src="figures/sample_rhexis_end.png" width="400"/></td>
+</tr>
+<tr>
+<td align="center"><b>Beginning of Phacoemulsification</b><br><img src="figures/sample_phaco_begin.png" width="400"/></td>
+<td align="center"><b>End of Phacoemulsification</b><br><img src="figures/sample_phaco_end.png" width="400"/></td>
+</tr>
+</table>
+</div>
+
 *Figure 5: Sample frames from relevant phases in a wet-lab cataract surgery with corresponding semantic segmentation annotations.*
 
 ---
