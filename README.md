@@ -228,23 +228,11 @@ This work was funded by **HaagStreit AG**. We would like to thank Finia Kowal, A
 
 ---
 
-## Contact
-
-For questions, issues, or collaboration inquiries, please contact:
-
-- **Negin Ghamsarian**: negin.ghamsarian@unibe.ch
-- **Raphael Sznitman**: raphael.sznitman@unibe.ch
-
----
-
 ## Related Publications
 
-For more information about our work on surgical video analysis and cataract surgery datasets, please see:
+For more information about our work on cataract surgery datasets, please see:
 
-1. Ghamsarian et al. "Cataract-1K: Cataract Surgery Dataset for Scene Segmentation, Phase Recognition, and Irregularity Detection" - Scientific Data, 2024
-2. Ghamsarian et al. "Feedback-Driven Pseudo-Label Reliability Assessment" - arXiv:2505.07691, 2025
-3. Ghamsarian et al. "DeepPyramid+: Medical Image Segmentation" - IJCARS, 2024
+Ghamsarian et al. "Cataract-1K: Cataract Surgery Dataset for Scene Segmentation, Phase Recognition, and Irregularity Detection" - Scientific Data, 2024
 
-Visit our research group websites:
-- [ARTORG Center for Biomedical Engineering Research, University of Bern](https://www.artorg.unibe.ch/)
-- [Institute of Information Technology, University of Klagenfurt](https://www.itec.aau.at/)
+
+
