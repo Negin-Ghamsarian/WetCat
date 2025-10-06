@@ -27,11 +27,16 @@ All 60 videos are comprehensively annotated with frame-level surgical phase labe
 - **Rest**: Other surgical phases
 
 
-![Phase Duration Distribution](figures/phase_duration_distribution.png)
-*Figure 2a: Distribution of surgical phase durations across videos.*
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="figures/phase_duration_distribution.png" width="400"/></td>
+<td align="center"><img src="figures/phase_proportion.png" width="400"/></td>
+</tr>
+</table>
+</div>
 
-![Phase Proportion](figures/phase_proportion.png)
-*Figure 2b: Overall phase proportions in the dataset.*
+*Figure 2: Distribution of surgical phase durations across videos (left) and overall phase proportions in the dataset (right).*
 
 ![Phase Annotations](figures/phase_annotations.png)
 *Figure 3: Visualization of relevant phase annotations for representative wet-lab videos from the dataset.*
@@ -43,11 +48,16 @@ All 60 videos are comprehensively annotated with frame-level surgical phase labe
 The dataset includes dense **pixel-level semantic segmentations** for **1,469 selected frames**, encompassing key anatomical structures and surgical instruments critical for skill assessment:
 
 
-![Segmentation Visibility](figures/segmentation_visibility.png)
-*Figure 4a: Visibility of each label across frames.*
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="figures/segmentation_visibility.png" width="400"/></td>
+<td align="center"><img src="figures/pixel_composition.png" width="400"/></td>
+</tr>
+</table>
+</div>
 
-![Pixel Composition](figures/pixel_composition.png)
-*Figure 4b: Average pixel composition per object.*
+*Figure 4: Comparison of segmentation label visibility (left) and pixel distribution across videos (right).*
 
 ![Sample Frames](figures/sample_frames.png)
 *Figure 5: Sample frames from relevant phases in a wet-lab cataract surgery with corresponding semantic segmentation annotations.*
