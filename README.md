@@ -114,15 +114,18 @@ We provide comprehensive benchmarking results in the paper:
 Multiple architectures evaluated including CNN-RNN (VGG-LSTM, VGG-BiLSTM), Vision Transformers, and 3D ResNets, achieving up to **85.51% F1-Score** with VGG-BiLSTM.
 
 <div align="center">
-
-| ResNet3D | VGG-LSTM | VGG-GRU |
-|----------|----------|---------|
-| ![ResNet3D](figures/phase_resnet3d.png) | ![VGG-LSTM](figures/phase_vgg_lstm.png) | ![VGG-GRU](figures/phase_vgg_gru.png) |
-
-| VGG-BiLSTM | VGG-BiGRU | VGG-Transformer |
-|------------|-----------|-----------------|
-| ![VGG-BiLSTM](figures/phase_vgg_bilstm.png) | ![VGG-BiGRU](figures/phase_vgg_bigru.png) | ![VGG-Transformer](figures/phase_vgg_transformer.png) |
-
+<table>
+<tr>
+<td align="center"><b>ResNet3D</b><br><img src="figures/phase_resnet3d.png" width="300"/></td>
+<td align="center"><b>VGG-LSTM</b><br><img src="figures/phase_vgg_lstm.png" width="300"/></td>
+<td align="center"><b>VGG-GRU</b><br><img src="figures/phase_vgg_gru.png" width="300"/></td>
+</tr>
+<tr>
+<td align="center"><b>VGG-BiLSTM</b><br><img src="figures/phase_vgg_bilstm.png" width="300"/></td>
+<td align="center"><b>VGG-BiGRU</b><br><img src="figures/phase_vgg_bigru.png" width="300"/></td>
+<td align="center"><b>VGG-Transformer</b><br><img src="figures/phase_vgg_transformer.png" width="300"/></td>
+</tr>
+</table>
 </div>
 
 *Figure 7: Sankey diagrams of confusion matrices corresponding to different phase recognition networks.*
