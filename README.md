@@ -24,16 +24,8 @@ All 60 videos are comprehensively annotated with frame-level surgical phase labe
 - **Capsulorhexis (Rhexis)**: The precision-critical step of creating a circular opening in the anterior capsule
 - **Phacoemulsification (Phaco.)**: The lens fragmentation and removal phase
 - **Idle**: Transition periods between phases when instruments are being changed
-- **Rest**: Non-operative periods
+- **Rest**: Other surgical phases
 
-#### Phase Distribution
-
-| Phase | Total Duration (s) | Percentage |
-|-------|-------------------|------------|
-| Rhexis | 7,879 | 16.5% |
-| Phaco. | 28,694 | 60.3% |
-| Idle | 8,200 | 17.2% |
-| Rest | 2,845 | 6.0% |
 
 ![Phase Duration Distribution](figures/phase_duration_distribution.png)
 *Figure 2a: Distribution of surgical phase durations across videos.*
@@ -50,21 +42,6 @@ All 60 videos are comprehensively annotated with frame-level surgical phase labe
 
 The dataset includes dense **pixel-level semantic segmentations** for **1,469 selected frames**, encompassing key anatomical structures and surgical instruments critical for skill assessment:
 
-- **Iris**: Visible in 100% of annotated frames
-- **Pupil**: Visible in 100% of annotated frames  
-- **Capsulorhexis (Rhexis)**: Visible in 7.7% of annotated frames
-- **Surgical Instruments**: Visible in 86.5% of annotated frames
-- **Background**: Present in all frames
-
-#### Pixel Composition
-
-| Label | Average Pixels per Frame |
-|-------|-------------------------|
-| Iris | 161K (7.8%) |
-| Pupil | 262K (12.7%) |
-| Rhexis | 6K (0.3%) |
-| Instruments | 93K (4.5%) |
-| Background | 1,550K (74.8%) |
 
 ![Segmentation Visibility](figures/segmentation_visibility.png)
 *Figure 4a: Visibility of each label across frames.*
@@ -74,10 +51,6 @@ The dataset includes dense **pixel-level semantic segmentations** for **1,469 se
 
 ![Sample Frames](figures/sample_frames.png)
 *Figure 5: Sample frames from relevant phases in a wet-lab cataract surgery with corresponding semantic segmentation annotations.*
-
-The semantic segmentations are provided in two formats:
-1. **Supervisely format**: JSON files with Python codes for mask creation
-2. **COCO format**: Including bounding box annotations for object localization tasks
 
 ---
 
@@ -140,7 +113,18 @@ We provide comprehensive benchmarking results in the paper:
 ### Phase Recognition Performance
 Multiple architectures evaluated including CNN-RNN (VGG-LSTM, VGG-BiLSTM), Vision Transformers, and 3D ResNets, achieving up to **85.51% F1-Score** with VGG-BiLSTM.
 
-![Phase Recognition Results](figures/phase_recognition_results.png)
+<div align="center">
+
+| ResNet3D | VGG-LSTM | VGG-GRU |
+|----------|----------|---------|
+| ![ResNet3D](figures/phase_resnet3d.png) | ![VGG-LSTM](figures/phase_vgg_lstm.png) | ![VGG-GRU](figures/phase_vgg_gru.png) |
+
+| VGG-BiLSTM | VGG-BiGRU | VGG-Transformer |
+|------------|-----------|-----------------|
+| ![VGG-BiLSTM](figures/phase_vgg_bilstm.png) | ![VGG-BiGRU](figures/phase_vgg_bigru.png) | ![VGG-Transformer](figures/phase_vgg_transformer.png) |
+
+</div>
+
 *Figure 7: Sankey diagrams of confusion matrices corresponding to different phase recognition networks.*
 
 ### Semantic Segmentation Performance
