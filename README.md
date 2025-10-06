@@ -205,7 +205,7 @@ For further legal details, please read the complete [license terms](https://crea
 If you agree to the above license conditions, you can download the dataset:
 
 - **[Complete WetCat Dataset](https://www.synapse.org/Synapse:syn66401174/files/)** - Full dataset with all annotations
-- **[Dataset Preparation Codes](https://github.com/Negin-Ghamsarian/WetCat)** - Python codes for annotation processing, training splits, and usage instructions
+- **[Dataset Codes](https://github.com/Negin-Ghamsarian/WetCat)** - Python codes for training 
 
 The dataset is hosted on **Synapse** and requires registration to access.
 
