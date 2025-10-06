@@ -38,7 +38,10 @@ All 60 videos are comprehensively annotated with frame-level surgical phase labe
 
 *Figure 2: Distribution of surgical phase durations across videos (left) and overall phase proportions in the dataset (right).*
 
-![Phase Annotations](figures/phase_annotations.png)
+<div align="center">
+<img src="figures/phase_annotations.png" width="600"/>
+</div>
+
 *Figure 3: Visualization of relevant phase annotations for representative wet-lab videos from the dataset.*
 
 ---
