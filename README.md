@@ -71,7 +71,10 @@ The dataset includes dense **pixel-level semantic segmentations** for **1,469 se
 
 WetCat enables objective, automated skill assessment aligned with established clinical frameworks (GRASIS, OSCAR). The annotations support evaluation of the following metrics:
 
-![Skill Assessment Framework](figures/framework.png)
+<div align="center">
+<img src="figures/framework.png" width="600"/>
+</div>
+
 *Figure 6: Overall framework for skill assessment in wet-lab cataract surgery using phase recognition and semantic segmentation.*
 
 ### Capsulorhexis Assessment Metrics
